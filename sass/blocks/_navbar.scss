@@ -1,0 +1,86 @@
+.navbar {
+    margin-top: 50px;
+
+    .navbar__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .navbar__logo {
+            display: block;
+            @include media(0, 1850px) {
+                z-index: 9999;
+            }
+        }
+        .navbar__list {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            @include media(0, 1850px) {
+                position: absolute;
+                top: 0;
+                left: 0;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                height: 100vh;
+                width: 80%;
+                padding: 90px 20px 20vh 20px;
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+                background-color: #2d2e46;
+                transition: all 0.3s ease;
+                transform: translateX(-100%);
+                z-index: 999; /* Adjusted z-index */
+            }
+
+            .navbar__list-item a {
+                color: rgb(45, 46, 70);
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 17px;
+                text-transform: uppercase;
+                @include media(0, 1850px) {
+                    color: white;
+                }
+            }
+        }
+
+        .burger {
+            display: none; /* or display: block; */
+            flex-direction: column;
+            margin: 10px;
+            @include media(0, 1850px) {
+                display: flex;
+                z-index: 99999;
+                .burger__item-one {
+                    display: flex;
+                    width: 40px;
+                    height: 3px;
+                    margin: 4px 0;
+                    background-color: rgb(45, 46, 70);
+                    cursor: pointer;
+                }
+                .burger__item-two {
+                    align-self: flex-end;
+                    width: 30px;
+                    height: 3px;
+                    background-color: rgb(45, 46, 70);
+                    cursor: pointer;
+                }
+                .burger__item-there {
+                    align-self: flex-end;
+                    width: 20px;
+                    height: 3px;
+                    margin: 4px 0;
+                    background-color: rgb(45, 46, 70);
+                    cursor: pointer;
+                }
+            }
+        }
+        #selectEl {
+            border: 0;
+        }
+    }
+}

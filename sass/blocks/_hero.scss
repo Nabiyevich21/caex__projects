@@ -1,0 +1,171 @@
+.hero {
+    margin-top: 111px;
+    margin-bottom: 160px;
+
+    @include media(768px, 1849px) {
+        margin-bottom: 70px;
+    }
+}
+.container {
+    padding: 0;
+}
+
+.hero .hero__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.hero__wrapper h2 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 115px;
+    text-align: center;
+    color: rgb(242, 99, 42);
+
+    @include media(768px, 1849px) {
+        font-size: 70px;
+    }
+
+    @include mobile() {
+        font-size: 32px;
+    }
+}
+.hero__wrapper .hero__inner-text {
+    font-size: 96px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 134px;
+    text-align: center;
+    color: rgb(242, 99, 42);
+
+    @include media(768px, 1849px) {
+        font-size: 70px;
+    }
+
+    @include mobile() {
+        font-size: 32px;
+    }
+}
+
+.hero__wrapper > p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(45, 46, 70);
+    width: 930px;
+    margin-bottom: 70px;
+
+    @include media(768px, 1849px) {
+        width: 660px;
+    }
+
+    @include mobile() {
+        max-width: 330px;
+    }
+}
+
+.hero__wrapper .hero__list {
+    display: flex;
+    gap: 120px;
+}
+
+@include media(768px, 1849px) {
+    .hero__wrapper .hero__list #hero__bg {
+        display: none;
+    }
+}
+
+@include mobile() {
+    .hero__wrapper .hero__list #hero__bg {
+        display: none;
+    }
+}
+
+.hero__wrapper .hero__list #hero__bg-2 {
+    margin-left: -120px;
+
+    @include media(768px, 1849px) {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    @include mobile() {
+        margin: 0;
+        max-width: 100%;
+    }
+}
+
+.hero__wrapper .hero__list .hero__list-item {
+    display: flex;
+    flex-direction: column;
+
+    @include media(768px, 1849px) {
+        justify-content: center;
+    }
+}
+
+.hero__wrapper .hero__list .hero__list-item h4 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    margin-top: 136px;
+    color: rgb(242, 99, 42);
+    margin-bottom: 40px;
+
+    @include media(768px, 1849px) {
+        font-size: 38px;
+        padding-left: 40px;
+    }
+
+    @include mobile() {
+        font-size: 30px;
+        padding-left: 40px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+}
+
+.hero__wrapper .hero__list .hero__list-item h4 #hero__inner-span {
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 67px;
+    text-align: left;
+    color: rgb(242, 99, 42);
+
+    @include media(768px, 1849px) {
+        font-size: 38px;
+    }
+
+    @include mobile() {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+}
+
+.hero__wrapper .hero__list .hero__list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__wrapper .hero__list .hero__list-item .item__inner-one {
+    display: flex;
+    margin-bottom: 15px;
+    max-width: 761px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+    @include media(768px, 1849px) {
+        padding-left: 40px;
+        max-width: 600px;
+    }
+
+    @include mobile() {
+        padding-left: 40px;
+        max-width: 360px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgb(255, 255, 255) 100%);
+    }
+}

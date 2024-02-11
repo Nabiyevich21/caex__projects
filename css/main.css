@@ -1,0 +1,621 @@
+@font-face {
+  font-family: "Apoc-Normal-Trial";
+  src: url("./fonts/Apoc-Normal-Trial-Bold.woff2") format("woff2"), url("Apoc-Normal-Trial-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Normal-Trial Dark";
+  src: url("./fonts/Apoc-Normal-Trial-Dark.woff2") format("woff2"), url("Apoc-Normal-Trial-Dark.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Normal-Trial";
+  src: url("./fonts/Apoc-Normal-Trial-BoldItalic.woff2") format("woff2"), url("Apoc-Normal-Trial-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Normal-Trial";
+  src: url("./fonts/Apoc-Normal-Trial-LightItalic.woff2") format("woff2"), url("Apoc-Normal-Trial-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Normal-Trial";
+  src: url("./fonts/Apoc-Normal-Trial-Light.woff2") format("woff2"), url("Apoc-Normal-Trial-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Normal-Trial";
+  src: url("./fonts/Apoc-Normal-Trial-RegularItalic.woff2") format("woff2"), url("Apoc-Normal-Trial-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Revelations-Trial Hairline";
+  src: url("./fonts/Apoc-Revelations-Trial-Hairline.woff2") format("woff2"), url("Apoc-Revelations-Trial-Hairline.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Revelations-Trial";
+  src: url("./fonts/Apoc-Revelations-Trial-Bold.woff2") format("woff2"), url("Apoc-Revelations-Trial-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Revelations-Trial Dark";
+  src: url("./fonts/Apoc-Revelations-Trial-Dark.woff2") format("woff2"), url("Apoc-Revelations-Trial-Dark.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Revelations-Trial";
+  src: url("./fonts/Apoc-Revelations-Trial-RegularItalic.woff2") format("woff2"), url("Apoc-Revelations-Trial-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Revelations-Trial";
+  src: url("./fonts/Apoc-Revelations-Trial-Light.woff2") format("woff2"), url("Apoc-Revelations-Trial-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Revelations-Trial";
+  src: url("./fonts/Apoc-Revelations-Trial-Regular.woff2") format("woff2"), url("Apoc-Revelations-Trial-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Revelations-Trial";
+  src: url("./fonts/Apoc-Revelations-Trial-BoldItalic.woff2") format("woff2"), url("Apoc-Revelations-Trial-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Normal-Trial Dark";
+  src: url("./fonts/Apoc-Normal-Trial-DarkItalic.woff2") format("woff2"), url("Apoc-Normal-Trial-DarkItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Revelations-Trial";
+  src: url("./fonts/Apoc-Revelations-Trial-LightItalic.woff2") format("woff2"), url("Apoc-Revelations-Trial-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Normal-Trial Hairline";
+  src: url("./fonts/Apoc-Normal-Trial-Hairline.woff2") format("woff2"), url("Apoc-Normal-Trial-Hairline.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Normal-Trial Hairline";
+  src: url("./fonts/Apoc-Normal-Trial-HairlineItalic.woff2") format("woff2"), url("Apoc-Normal-Trial-HairlineItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Normal-Trial";
+  src: url("./fonts/Apoc-Normal-Trial-Regular.woff2") format("woff2"), url("Apoc-Normal-Trial-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Revelations-Trial Dark";
+  src: url("./fonts/Apoc-Revelations-Trial-DarkItalic.woff2") format("woff2"), url("Apoc-Revelations-Trial-DarkItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Revelations-Trial Hairline";
+  src: url("./fonts/Apoc-Revelations-Trial-HairlineItalic.woff2") format("woff2"), url("Apoc-Revelations-Trial-HairlineItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Normal-Trial Ultra";
+  src: url("./fonts/Apoc-Normal-Trial-UltraBoldItalic.woff2") format("woff2"), url("Apoc-Normal-Trial-UltraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Normal-Trial Ultra";
+  src: url("./fonts/Apoc-Normal-Trial-UltraBold.woff2") format("woff2"), url("Apoc-Normal-Trial-UltraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Sans-Trial";
+  src: url("./fonts/Apoc-Sans-Trial-LightItalic.woff2") format("woff2"), url("Apoc-Sans-Trial-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Sans-Trial";
+  src: url("./fonts/Apoc-Sans-Trial-Light.woff2") format("woff2"), url("Apoc-Sans-Trial-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Revelations-Trial Ul";
+  src: url("./fonts/Apoc-Revelations-Trial-UltraBold.woff2") format("woff2"), url("Apoc-Revelations-Trial-UltraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Apoc-Revelations-Trial Ul";
+  src: url("./fonts/Apoc-Revelations-Trial-UltraBoldItalic.woff2") format("woff2"), url("Apoc-Revelations-Trial-UltraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Root UI";
+  src: url("./fonts/PTRootUI-Light.woff2") format("woff2"), url("PTRootUI-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Root UI VF";
+  src: url("./fonts/PTRootUIVF.woff2") format("woff2"), url("PTRootUIVF.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Root UI";
+  src: url("./fonts/PTRootUI-Bold.woff2") format("woff2"), url("PTRootUI-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Root UI";
+  src: url("./fonts/PTRootUI-Medium.woff2") format("woff2"), url("PTRootUI-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Root UI";
+  src: url("./fonts/PTRootUI-Regular.woff2") format("woff2"), url("PTRootUI-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Root UI VF", "Apoc-Sans-Trial", sans-serif;
+}
+
+.container {
+  max-width: 1850px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  margin-top: 50px;
+}
+.navbar .navbar__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar__wrapper .navbar__logo {
+  display: block;
+}
+@media screen and (min-width: 0) and (max-width: 1850px) {
+  .navbar .navbar__wrapper .navbar__logo {
+    z-index: 9999;
+  }
+}
+.navbar .navbar__wrapper .navbar__list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+@media screen and (min-width: 0) and (max-width: 1850px) {
+  .navbar .navbar__wrapper .navbar__list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100vh;
+    width: 80%;
+    padding: 90px 20px 20vh 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #2d2e46;
+    transition: all 0.3s ease;
+    transform: translateX(-100%);
+    z-index: 999; /* Adjusted z-index */
+  }
+}
+.navbar .navbar__wrapper .navbar__list .navbar__list-item a {
+  color: rgb(45, 46, 70);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 0) and (max-width: 1850px) {
+  .navbar .navbar__wrapper .navbar__list .navbar__list-item a {
+    color: white;
+  }
+}
+.navbar .navbar__wrapper .burger {
+  display: none; /* or display: block; */
+  flex-direction: column;
+  margin: 10px;
+}
+@media screen and (min-width: 0) and (max-width: 1850px) {
+  .navbar .navbar__wrapper .burger {
+    display: flex;
+    z-index: 99999;
+  }
+  .navbar .navbar__wrapper .burger .burger__item-one {
+    display: flex;
+    width: 40px;
+    height: 3px;
+    margin: 4px 0;
+    background-color: rgb(45, 46, 70);
+    cursor: pointer;
+  }
+  .navbar .navbar__wrapper .burger .burger__item-two {
+    align-self: flex-end;
+    width: 30px;
+    height: 3px;
+    background-color: rgb(45, 46, 70);
+    cursor: pointer;
+  }
+  .navbar .navbar__wrapper .burger .burger__item-there {
+    align-self: flex-end;
+    width: 20px;
+    height: 3px;
+    margin: 4px 0;
+    background-color: rgb(45, 46, 70);
+    cursor: pointer;
+  }
+}
+.navbar .navbar__wrapper #selectEl {
+  border: 0;
+}
+
+.hero {
+  margin-top: 111px;
+  margin-bottom: 160px;
+}
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .hero {
+    margin-bottom: 70px;
+  }
+}
+
+.container {
+  padding: 0;
+}
+
+.hero .hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero__wrapper h2 {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 115px;
+  text-align: center;
+  color: rgb(242, 99, 42);
+}
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .hero__wrapper h2 {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero__wrapper h2 {
+    font-size: 32px;
+  }
+}
+
+.hero__wrapper .hero__inner-text {
+  font-size: 96px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 134px;
+  text-align: center;
+  color: rgb(242, 99, 42);
+}
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .hero__wrapper .hero__inner-text {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero__wrapper .hero__inner-text {
+    font-size: 32px;
+  }
+}
+
+.hero__wrapper > p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: rgb(45, 46, 70);
+  width: 930px;
+  margin-bottom: 70px;
+}
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .hero__wrapper > p {
+    width: 660px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero__wrapper > p {
+    max-width: 330px;
+  }
+}
+
+.hero__wrapper .hero__list {
+  display: flex;
+  gap: 120px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .hero__wrapper .hero__list #hero__bg {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero__wrapper .hero__list #hero__bg {
+    display: none;
+  }
+}
+.hero__wrapper .hero__list #hero__bg-2 {
+  margin-left: -120px;
+}
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .hero__wrapper .hero__list #hero__bg-2 {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero__wrapper .hero__list #hero__bg-2 {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
+.hero__wrapper .hero__list .hero__list-item {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .hero__wrapper .hero__list .hero__list-item {
+    justify-content: center;
+  }
+}
+
+.hero__wrapper .hero__list .hero__list-item h4 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  margin-top: 136px;
+  color: rgb(242, 99, 42);
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .hero__wrapper .hero__list .hero__list-item h4 {
+    font-size: 38px;
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero__wrapper .hero__list .hero__list-item h4 {
+    font-size: 30px;
+    padding-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+}
+
+.hero__wrapper .hero__list .hero__list-item h4 #hero__inner-span {
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 67px;
+  text-align: left;
+  color: rgb(242, 99, 42);
+}
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .hero__wrapper .hero__list .hero__list-item h4 #hero__inner-span {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero__wrapper .hero__list .hero__list-item h4 #hero__inner-span {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+}
+
+.hero__wrapper .hero__list .hero__list-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__wrapper .hero__list .hero__list-item .item__inner-one {
+  display: flex;
+  margin-bottom: 15px;
+  max-width: 761px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .hero__wrapper .hero__list .hero__list-item .item__inner-one {
+    padding-left: 40px;
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero__wrapper .hero__list .hero__list-item .item__inner-one {
+    padding-left: 40px;
+    max-width: 360px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgb(255, 255, 255) 100%);
+  }
+}
+
+.possibilities {
+  margin-bottom: 160px;
+}
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .possibilities {
+    margin-top: 0px;
+  }
+}
+
+.possibilities .possibilities__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .possibilities__wrapper #possibilities__bg-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .possibilities__wrapper #possibilities__bg-2 {
+    display: none;
+  }
+}
+
+.possibilities .possibilities__wrapper .possibilities__contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.possibilities__contents .possibilities__texts h3 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  color: rgb(242, 99, 42);
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .possibilities__contents .possibilities__texts h3 {
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .possibilities__contents .possibilities__texts h3 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    padding-left: 40px;
+    width: 288px;
+  }
+}
+
+.possibilities__contents .possibilities__texts h3 span {
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 67px;
+  color: rgb(242, 99, 42);
+}
+@media screen and (max-width: 767px) {
+  .possibilities__contents .possibilities__texts h3 span {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+.possibilities__contents .possibilities__texts h5 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 15px;
+  max-width: 790px;
+}
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .possibilities__contents .possibilities__texts h5 {
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .possibilities__contents .possibilities__texts h5 {
+    padding-left: 30px;
+    max-width: 390px;
+  }
+}
+
+.possibilities__contents .possibilities__texts .possibilities__list-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 795px;
+}
+@media screen and (min-width: 768px) and (max-width: 1849px) {
+  .possibilities__contents .possibilities__texts .possibilities__list-item {
+    padding-left: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .possibilities__contents .possibilities__texts .possibilities__list-item {
+    padding-left: 40px;
+    max-width: 360px;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,309 @@
+@font-face {
+    font-family: "Apoc-Normal-Trial";
+    src:
+        url("./fonts/Apoc-Normal-Trial-Bold.woff2") format("woff2"),
+        url("Apoc-Normal-Trial-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Normal-Trial Dark";
+    src:
+        url("./fonts/Apoc-Normal-Trial-Dark.woff2") format("woff2"),
+        url("Apoc-Normal-Trial-Dark.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Normal-Trial";
+    src:
+        url("./fonts/Apoc-Normal-Trial-BoldItalic.woff2") format("woff2"),
+        url("Apoc-Normal-Trial-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Normal-Trial";
+    src:
+        url("./fonts/Apoc-Normal-Trial-LightItalic.woff2") format("woff2"),
+        url("Apoc-Normal-Trial-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Normal-Trial";
+    src:
+        url("./fonts/Apoc-Normal-Trial-Light.woff2") format("woff2"),
+        url("Apoc-Normal-Trial-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Normal-Trial";
+    src:
+        url("./fonts/Apoc-Normal-Trial-RegularItalic.woff2") format("woff2"),
+        url("Apoc-Normal-Trial-RegularItalic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Revelations-Trial Hairline";
+    src:
+        url("./fonts/Apoc-Revelations-Trial-Hairline.woff2") format("woff2"),
+        url("Apoc-Revelations-Trial-Hairline.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Revelations-Trial";
+    src:
+        url("./fonts/Apoc-Revelations-Trial-Bold.woff2") format("woff2"),
+        url("Apoc-Revelations-Trial-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Revelations-Trial Dark";
+    src:
+        url("./fonts/Apoc-Revelations-Trial-Dark.woff2") format("woff2"),
+        url("Apoc-Revelations-Trial-Dark.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Revelations-Trial";
+    src:
+        url("./fonts/Apoc-Revelations-Trial-RegularItalic.woff2") format("woff2"),
+        url("Apoc-Revelations-Trial-RegularItalic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Revelations-Trial";
+    src:
+        url("./fonts/Apoc-Revelations-Trial-Light.woff2") format("woff2"),
+        url("Apoc-Revelations-Trial-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Revelations-Trial";
+    src:
+        url("./fonts/Apoc-Revelations-Trial-Regular.woff2") format("woff2"),
+        url("Apoc-Revelations-Trial-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Revelations-Trial";
+    src:
+        url("./fonts/Apoc-Revelations-Trial-BoldItalic.woff2") format("woff2"),
+        url("Apoc-Revelations-Trial-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Normal-Trial Dark";
+    src:
+        url("./fonts/Apoc-Normal-Trial-DarkItalic.woff2") format("woff2"),
+        url("Apoc-Normal-Trial-DarkItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Revelations-Trial";
+    src:
+        url("./fonts/Apoc-Revelations-Trial-LightItalic.woff2") format("woff2"),
+        url("Apoc-Revelations-Trial-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Normal-Trial Hairline";
+    src:
+        url("./fonts/Apoc-Normal-Trial-Hairline.woff2") format("woff2"),
+        url("Apoc-Normal-Trial-Hairline.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Normal-Trial Hairline";
+    src:
+        url("./fonts/Apoc-Normal-Trial-HairlineItalic.woff2") format("woff2"),
+        url("Apoc-Normal-Trial-HairlineItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Normal-Trial";
+    src:
+        url("./fonts/Apoc-Normal-Trial-Regular.woff2") format("woff2"),
+        url("Apoc-Normal-Trial-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Revelations-Trial Dark";
+    src:
+        url("./fonts/Apoc-Revelations-Trial-DarkItalic.woff2") format("woff2"),
+        url("Apoc-Revelations-Trial-DarkItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Revelations-Trial Hairline";
+    src:
+        url("./fonts/Apoc-Revelations-Trial-HairlineItalic.woff2") format("woff2"),
+        url("Apoc-Revelations-Trial-HairlineItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Normal-Trial Ultra";
+    src:
+        url("./fonts/Apoc-Normal-Trial-UltraBoldItalic.woff2") format("woff2"),
+        url("Apoc-Normal-Trial-UltraBoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Normal-Trial Ultra";
+    src:
+        url("./fonts/Apoc-Normal-Trial-UltraBold.woff2") format("woff2"),
+        url("Apoc-Normal-Trial-UltraBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Sans-Trial";
+    src:
+        url("./fonts/Apoc-Sans-Trial-LightItalic.woff2") format("woff2"),
+        url("Apoc-Sans-Trial-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Sans-Trial";
+    src:
+        url("./fonts/Apoc-Sans-Trial-Light.woff2") format("woff2"),
+        url("Apoc-Sans-Trial-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Revelations-Trial Ul";
+    src:
+        url("./fonts/Apoc-Revelations-Trial-UltraBold.woff2") format("woff2"),
+        url("Apoc-Revelations-Trial-UltraBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Apoc-Revelations-Trial Ul";
+    src:
+        url("./fonts/Apoc-Revelations-Trial-UltraBoldItalic.woff2") format("woff2"),
+        url("Apoc-Revelations-Trial-UltraBoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+//! second fonts
+@font-face {
+    font-family: "PT Root UI";
+    src:
+        url("./fonts/PTRootUI-Light.woff2") format("woff2"),
+        url("PTRootUI-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Root UI VF";
+    src:
+        url("./fonts/PTRootUIVF.woff2") format("woff2"),
+        url("PTRootUIVF.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Root UI";
+    src:
+        url("./fonts/PTRootUI-Bold.woff2") format("woff2"),
+        url("PTRootUI-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Root UI";
+    src:
+        url("./fonts/PTRootUI-Medium.woff2") format("woff2"),
+        url("PTRootUI-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Root UI";
+    src:
+        url("./fonts/PTRootUI-Regular.woff2") format("woff2"),
+        url("PTRootUI-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
